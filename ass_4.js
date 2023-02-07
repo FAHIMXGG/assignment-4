@@ -53,7 +53,7 @@ findingBadData([ -4, -9, -5, -33, -55 ])
 
 ////////////Problem 5////////////////
 function gemsToDiamond (friend1, friend2, friend3){
-    if (typeof friend1 !== 'number' || typeof friend2 !== 'number' || typeof friend3 !== 'number') return 'input valid number';
+    if (typeof friend1 !== 'number' || typeof friend2 !== 'number' || typeof friend3 !== 'number') return 'input all valid number';
     const totalGems = friend1 * 21 + friend2 * 32 + friend3 * 43;
     
     if(totalGems > 2000){
